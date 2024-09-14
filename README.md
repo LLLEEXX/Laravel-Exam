@@ -15,7 +15,23 @@
 
     composer install
 
-3. **Configure the database settings:**
+
+   
+3. **Create an env file:**
+
+     After cloning the repository, you need to create a `.env` file. You can do this in one of two ways:
+
+   - **Option 1: Copy and Paste**
+
+     Simply copy the contents of the `.env.example` file and paste it into a new `.env` file. You can create the file using a text editor of your choice.
+
+   - **Option 2: Command Line**
+
+     Or simply use this command line
+
+     cp .env.example .env
+
+4. **Configure the database settings:**
 
     Open the .env file and update the following lines with your database details:
 
@@ -26,7 +42,7 @@
     DB_USERNAME=root
     DB_PASSWORD=Exam3000
 
-4. **Run migrations to set up the database tables:**
+5. **Run migrations to set up the database tables:**
 
     php artisan migrate
 
