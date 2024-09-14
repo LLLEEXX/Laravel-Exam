@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-style: 'sans-seriff', Roboto;
+    font-size: 1.4rem;
+}
+
+.form-container{
+    padding: 15px;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+form{
+    padding: 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    border: 1px black solid;
+}
+
+.position-name{
+    margin-left: 2.4rem;
+    min-width: 15rem;
+    min-height: 2rem;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.error-label{
+    color: tomato;
+}
+
+.reports-to{
+    min-width: 15rem;
+    min-height: 2rem;
+    background-color: transparent;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.submit-report{
+    margin-left: 14rem;
+    min-width: 8rem;
+    min-height: 2rem;
+}
+.action-btn{
+    font-size: larger;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.action-td{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 47rem;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+th{
+    text-align: center;
+} 
